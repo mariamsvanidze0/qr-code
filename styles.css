@@ -1,4 +1,5 @@
-@import url(https://fonts.google.com/specimen/Outfit);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     margin: 0;
 }
+
 .main-box {
     margin: auto;
     display: grid;
@@ -25,30 +27,33 @@ body {
     max-width: 280px;
     padding: 15px;
     border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .main-box img {
     width: 100%;
     max-width: 250px;
     border-radius: 15px;
 }
+
 .main-box h4 {
-    width: 250px;
     font-size: 20px;
     font-weight: bold;
 }
+
 .main-box p {
     font-size: 15px;
-    width:250px;
     color: hsl(216, 15%, 48%);
 }
+
 .attribution {
     font-size: 15px;
-    width:250px;
     color: hsl(216, 15%, 48%);
 }
+
 .attribution a {
     text-decoration: none;
-    color:rgb(99, 96, 96);
+    color: rgb(99, 96, 96);
     margin-left: 5px;
 }
 
@@ -66,12 +71,20 @@ body {
 
 @media (min-width: 1440px) {
     .main-box {
-        width: 30%;
+        width: 40%;
         max-width: 500px;
         padding: 25px;
     }
 
     .main-box img {
         max-width: 450px;
+    }
+
+    .main-box h4 {
+        font-size: 1.5rem;
+    }
+
+    .main-box p {
+        font-size: 1rem;
     }
 }
