@@ -8,6 +8,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -39,6 +40,16 @@ body {
     font-size: 15px;
     width:250px;
     color: hsl(216, 15%, 48%);
+}
+.attribution {
+    font-size: 15px;
+    width:250px;
+    color: hsl(216, 15%, 48%);
+}
+.attribution a {
+    text-decoration: none;
+    color:rgb(99, 96, 96);
+    margin-left: 5px;
 }
 
 @media (max-width: 375px) {
